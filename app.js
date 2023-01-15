@@ -26,5 +26,5 @@ function CalculateNumericOutput()
         totalnumberofChar = totalnumberofChar + 1
     }
 
-    document.getElementById("output").value=totalnumberofChar;
+    document.getElementById("output").innerText= "Total Char :" + totalnumberofChar;
 }
